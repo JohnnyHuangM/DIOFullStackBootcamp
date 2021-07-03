@@ -1,0 +1,32 @@
+First of all, I am actually learning English, so I'll use this repository to practice it as long I learn how to code...
+
+So, i this first class it was presented the description of algorithm:
+	"It's a sequence of steps which intend to solve problems"
+	A good wway to practice, was a short game caled 'Hora do código Minecraft" which uses the game's interface to teach algorithm.
+	Link: https://studio.code.org/s/mc
+	
+It was presented the description of "pseudocode", which you write all the steps using the speaking language intead of using programming language.
+And to put in practice the pseudocode, it was indicated to write the steps for the game "Pinguins numa Fria". Link: https://rachacuca.com.br/jogos/pinguins-numa-fria/
+	So the pseudocode was written:
+	START OF THE GAME
+	select = adult red, baby red
+	pass
+	select - adult red
+	pass
+	select + baby green
+	pass
+	select - baby red
+	pass
+	select + adult green
+	pass
+	select - adult green
+	pass
+	select + baby blue
+	pass
+	select - baby green
+	pass
+	select + adult blue
+	pass
+	select - adult blue - baby blue
+	END OF THE GAME
+	
