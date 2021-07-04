@@ -1,11 +1,11 @@
 First of all, I am actually learning English, so I'll use this repository to practice it as long I learn how to code...
 
-So, i this first class it was presented the description of algorithm:
+1) So, i this first class it was presented the description of algorithm:
 	"It's a sequence of steps which intend to solve problems"
 	A good wway to practice, was a short game caled 'Hora do código Minecraft" which uses the game's interface to teach algorithm.
 	Link: https://studio.code.org/s/mc
 	
-It was presented the description of "pseudocode", which you write all the steps using the speaking language intead of using programming language.
+2) It was presented the description of "pseudocode", which you write all the steps using the speaking language intead of using programming language.
 And to put in practice the pseudocode, it was indicated to write the steps for the game "Pinguins numa Fria". Link: https://rachacuca.com.br/jogos/pinguins-numa-fria/
 	So the pseudocode was written:
 	START OF THE GAME
@@ -30,3 +30,10 @@ And to put in practice the pseudocode, it was indicated to write the steps for t
 	select - adult blue - baby blue
 	END OF THE GAME
 	
+
+3) Fluxogram: used this a lot for Engineering Studies, mainly for any process we've studied. So it's, a tool used to represent visually an algorithm, with a logical sequence.
+	It can be presented as geometrical figures and arrows to indicate the sense and direction.
+
+4) Variables: it's an object that can store values or expressions. and it's possible to be classified as: numerical, characteres, alphanumerical and logical
+
+5) Constant: it's an object that receives a unique value that cannot be changed.
