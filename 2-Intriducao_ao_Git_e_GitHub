@@ -6,18 +6,44 @@ ls - listar os arquivos que há no diretorio
 ls -a - listar arquivos ocultos
 cd .. - retorna um nível
 cd "do destino" - abre a pasta no diretorio destino que esteja no diretorio presente
+mv "nomedo arquivo.extensao" ./"diretorio"/ - move um arquivo de um diretorio para outro
 
 configuracao do git:
 git config --global user.email "****************"
 git congif --global user.name Perkles
 
 commit:
-git add*
-git commit -m "commit inicial"
+git add*    # adiciona todas as modificações para o repositório em stage
+git commit -m "commit inicial"        # -m é uma flag
 "     [master (root-commit) 2974bfc] commit inicial
       1 file changed, 0 insertions(+), 0 deletions(-)
       create mode 100644 Strogonoff.md                  "
 
-tras algumas informações "2974bfc" são os primeiros números do sha1 - numero de encriptação
+traz algumas informações "2974bfc" são os primeiros números do sha1 - numero de encriptação
+
+git status verifica o estagio em que os arquivos estão situados se estão ja commitados ou nao
+
+git add "arquivo.extensao" "diretorio"/ - faz o track do arquivo no diretorio em que está alterando seu estago para staged
+
+git commit -m "descrição das ações" - commita todos os arquivos
+
+
+
+##### Ciclo de vida dos arquivos Git
+
+Criação de arquivos (git add): Untracked > Staged
+
+Edição de arquivos: Unmodified > Modified
+
+Aguardo de ação (git add): Modified > Staged
+
+Remoção de arquivo: Unmodified > Untracked
+
+Commit: Staged > Unmodified
+
+
+# Trabalhando com GitHub
+git config --list
+git config --global --unset user.email (ou name) - retira a configuração
 
 
