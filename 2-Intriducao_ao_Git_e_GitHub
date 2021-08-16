@@ -1,0 +1,23 @@
+Alguns comandos terminal Git Bash Here:
+
+mkdir - criar um diretorio
+ctrl + L - clean screen
+ls - listar os arquivos que há no diretorio
+ls -a - listar arquivos ocultos
+cd .. - retorna um nível
+cd "do destino" - abre a pasta no diretorio destino que esteja no diretorio presente
+
+configuracao do git:
+git config --global user.email "****************"
+git congif --global user.name Perkles
+
+commit:
+git add*
+git commit -m "commit inicial"
+"     [master (root-commit) 2974bfc] commit inicial
+      1 file changed, 0 insertions(+), 0 deletions(-)
+      create mode 100644 Strogonoff.md                  "
+
+tras algumas informações "2974bfc" são os primeiros números do sha1 - numero de encriptação
+
+
